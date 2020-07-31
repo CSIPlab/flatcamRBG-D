@@ -4,7 +4,7 @@ clear;
 addpath(genpath('utils'));
 
 % The list of 4 example objects is: single_card, two_cards, cup and hand
-load(fullfile('..','TCI_dataset','two_cards'));
+load(fullfile('..','dataset','two_cards'));
 
 d = 0.4; % sensor-to-mask distance (cm)
 pixelSize = 5.86*2*1e-4; % sensor pitch (cm)
