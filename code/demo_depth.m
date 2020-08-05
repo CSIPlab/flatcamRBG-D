@@ -3,8 +3,10 @@ clear;
 
 addpath(genpath('utils'));
 
+dataset = 'two_cards'; % dataset to use
+
 % The list of 4 example objects is: single_card, two_cards, cup and hand
-load(fullfile('..','dataset','two_cards'));
+load(fullfile('..','dataset',dataset));
 
 d = 0.4; % sensor-to-mask distance (cm)
 pixelSize = 5.86*2*1e-4; % sensor pitch (cm)
@@ -61,7 +63,7 @@ opts.D = convmtx([1,-1],N-1);
 %% Parameters
 
 % LSQR parameters
-damp = 0.4; % l2 regularization magnitude
+damp = 0.4; % l2 regularization value
 atol   = 1.0e-6;
 btol   = 1.0e-6;
 conlim = 1.0e+8;
@@ -71,13 +73,13 @@ show   = 0;
 % minFunc parameters
 options = [];
 options.display = 10; % 'none';
-options.maxFunEvals = 50;
-options.maxIter = 20;
+options.maxFunEvals = 50; 
+options.maxIter = 20; % number of iterations for depth estimation within one single loop
 options.Method = 'lbfgs';
 options.progTol = 1e-8;
 options.useMex = 1;
 
-niter = 5;
+niter = 5; % number of iterations in the loop
 
 res_images = zeros(N,N,3,1);
 res_depths = zeros(N,N,1);
