@@ -10,7 +10,7 @@ In this project, we propose an alternating gradient descent algorithm that joint
 Run `demo_depth.m` file in Matlab.
 
 ## Parameters
-Four example data files are included in this repository, they include a single card scene, two cards scene, a cup scene and a hand statue scene. The algorithm alternatively solves for image and depth map within a couple of loops. Here we list parameters that you can play with in the code.
+Four example data files are included in this repository, they include a single card scene, two cards scene, a cup scene and a hand statue scene. The algorithm alternatively solves for image and depth map within a couple of loops. Here we list some parameters that you can play with in the code.
 
 - `dataset`: data files to be evaluated.
 - `niter`: number of iterations in the loop.
@@ -18,3 +18,10 @@ Four example data files are included in this repository, they include a single c
 - `itnlim`: number of iterations in the image solver.
 - `maxIter`: number of iterations in the depth solver.
 - `lambda`: TVL2 regularization parameter in the depth solver. 
+
+## Packages
+We include the packages we used in the /code/utils/ folder. Here we list these packages and their sources.
+
+- minFunc: https://www.cs.ubc.ca/~schmidtm/Software/minFunc.html
+- LSQR: https://web.stanford.edu/group/SOL/software/lsqr/
+- export_fig: https://github.com/altmany/export_fig
