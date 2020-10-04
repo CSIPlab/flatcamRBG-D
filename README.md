@@ -1,4 +1,4 @@
-# flatcamRBG-D
+# flatcamRBG-D<sup>1</sup>
 
 This repository is the implementation of our paper: [Joint Image and Depth Estimation with Mask-Based Lensless Cameras](https://ieeexplore.ieee.org/document/9144433).
 
@@ -56,3 +56,6 @@ We include the packages we used in the /code/utils/ folder. Here we list these p
 - minFunc: https://www.cs.ubc.ca/~schmidtm/Software/minFunc.html
 - LSQR: https://web.stanford.edu/group/SOL/software/lsqr/
 - export_fig: https://github.com/altmany/export_fig
+
+
+<sup>1</sup>: [RBG](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg)
