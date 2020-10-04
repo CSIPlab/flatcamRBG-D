@@ -13,12 +13,12 @@ Run `demo_depth.m` file in Matlab.
 ## Expected results
 The algorithm has 3 main steps, here we list the expected results in each step.
 ### Step 1: Initialization
-![image](https://github.com/CSIPlab/imageDepthLensless/blob/master/doc/init_results.gif)
+![image](https://github.com/CSIPlab/imageDepthLensless/blob/master/doc/depth_sweep.gif)
 
 In this step, we try to reconstruct the scene at 10 predefined depth planes separately, then we pick the one that has the closest approximation as our initialization.
 
 ### Step 2: Optimization
-![image](https://github.com/CSIPlab/imageDepthLensless/blob/master/doc/opt_results.gif)
+![image](https://github.com/CSIPlab/imageDepthLensless/blob/master/doc/depth_est.gif)
 
 In this step, we jointly estimate image and depth. In each loop, we will first estimate the depth value of each pixel using gradient descent based on the current estimated image, then estimate the image intensity based on the estimated depth.
 
