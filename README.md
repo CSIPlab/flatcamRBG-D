@@ -1,4 +1,4 @@
-# flatcamRGB-D
+# flatcamRBG-D
 
 This repository is the implementation of our paper: [Joint Image and Depth Estimation with Mask-Based Lensless Cameras](https://ieeexplore.ieee.org/document/9144433).
 
