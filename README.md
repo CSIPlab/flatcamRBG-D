@@ -4,7 +4,7 @@ This repository is the implementation of our paper: [Joint Image and Depth Estim
 
 Please cite the following paper when using this code or data:
 ```
-@ARTICLE{9144433,
+@ARTICLE{zheng2020lensless3d,
   author={Y. {Zheng} and M. {Salman Asif}},
   journal={IEEE Transactions on Computational Imaging}, 
   title={Joint Image and Depth Estimation With Mask-Based Lensless Cameras}, 
