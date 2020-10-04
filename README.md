@@ -1,4 +1,4 @@
-# flatcamRBG-D<sup>1</sup>
+# flatcamRBG-D
 
 This repository is the implementation of our paper: [Joint Image and Depth Estimation with Mask-Based Lensless Cameras](https://ieeexplore.ieee.org/document/9144433).
 
@@ -58,4 +58,4 @@ We include the packages we used in the /code/utils/ folder. Here we list these p
 - export_fig: https://github.com/altmany/export_fig
 
 
-<sup>1</sup>: [RBG, Ruth Bader Ginsburg](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg)
+[RBG: May her memory be a blessing](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg)
