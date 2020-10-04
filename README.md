@@ -58,4 +58,4 @@ We include the packages we used in the /code/utils/ folder. Here we list these p
 - export_fig: https://github.com/altmany/export_fig
 
 
-<sup>1</sup>: [RBG](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg)
+<sup>1</sup>: [RBG, Ruth Bader Ginsburg](https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg)
