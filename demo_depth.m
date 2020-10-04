@@ -6,7 +6,7 @@ addpath(genpath('utils'));
 dataset = 'two_cards'; % dataset to use
 
 % The list of 4 example objects is: single_card, two_cards, cup and hand
-load(fullfile('..','dataset',dataset));
+load(fullfile('dataset',dataset));
 
 d = 0.4; % sensor-to-mask distance (cm)
 pixelSize = 5.86*2*1e-4; % sensor pitch (cm)
@@ -136,7 +136,8 @@ for dd = 1:ndepth
     loss_depthSwipe(dd) = loss;
     
     figure(11);
-    imagesc(xh_RGB); title(sprintf('scene %d, depth %0.5gcm, loss ratio %0.5g', jj,a2z(depth_list(dd)),loss));
+    imagesc(xh_RGB); axis image;
+    title(sprintf('depth %0.5gcm, loss ratio %0.5g', a2z(depth_list(dd)),loss));
     drawnow
     
     if loss < bestLoss
