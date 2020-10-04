@@ -1,6 +1,18 @@
 # imageDepthLensless
 
-This repository is the implementation of our paper: Joint Image and Depth Estimation with Mask-Based Lensless Cameras (IEEE transactions on computational imaging). The paper can be found on IEEE Xplore: https://ieeexplore.ieee.org/document/9144433.
+This repository is the implementation of our paper: [Joint Image and Depth Estimation with Mask-Based Lensless Cameras](https://ieeexplore.ieee.org/document/9144433).
+
+Please cite the following paper when using this code or data:
+```
+@ARTICLE{9144433,
+  author={Y. {Zheng} and M. {Salman Asif}},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={Joint Image and Depth Estimation With Mask-Based Lensless Cameras}, 
+  year={2020},
+  volume={6},
+  number={},
+  pages={1167-1178},}
+```
 
 ## Abstract
 ![image](https://github.com/CSIPlab/imageDepthLensless/blob/master/doc/intro.png)
